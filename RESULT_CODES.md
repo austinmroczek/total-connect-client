@@ -6,6 +6,7 @@ ResultCode | ResultData | Notes
 ------------ | - | - 
 4500 | ARM_SUCCESS |
 4500 | DISARM_SUCCESS | 
+4500 | SESSION_INITIATED | Session Initiated. Poll for command state update.
 4101 | CONNECTION_ERROR | We are unable to connect to the security panel. Please try again later or contact support
 0 | SUCCESS | 
 -100 | Authentication failed
