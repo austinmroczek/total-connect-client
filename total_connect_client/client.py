@@ -347,7 +347,7 @@ class TotalConnectClient:
     def _request_token(self) -> None:
         """Request a token using OAuth2."""
 
-        def token_updater(token: Any) -> None:
+        def token_updater(token: Any) -> None:  # pragma: no cover
             """Update the token on auto-refresh.
 
             Called following successful token auto-refresh by OAuth2Session.
